@@ -1,0 +1,426 @@
+/* line 2, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.header {
+  height: 110px;
+  width: 100%;
+}
+
+/* line 5, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 27px;
+}
+
+/* line 10, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 34px;
+  cursor: pointer;
+}
+
+/* line 16, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.logo__img {
+  width: 72px;
+  height: 66px;
+}
+
+/* line 19, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.logo__logotype {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 23, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.logo__text {
+  margin-left: 9px;
+}
+
+/* line 25, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.logo__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: left;
+  color: #f29700;
+}
+
+/* line 31, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.logo__subtitle {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+  color: #6f6f6f;
+  margin-top: 10px;
+}
+
+/* line 37, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.search {
+  margin-right: 34px;
+}
+
+/* line 39, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.search__region {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 43, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.search__input {
+  width: 100%;
+  height: 25px;
+  padding: 4px 11px 6px 11px;
+  border: solid 1px #b3aeae;
+  border-radius: 3px;
+}
+
+/* line 49, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.search__btn {
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 16px;
+}
+
+/* line 58, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.search__btn-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 62, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-left: none;
+  border-right: none;
+  padding: 0px 179px 0px 110px;
+}
+
+/* line 70, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .nav-item {
+  height: 45px;
+  width: 25%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 14px;
+  cursor: pointer;
+}
+
+/* line 79, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .nav-item:not(.nav-item-active):hover {
+  color: white;
+  background-color: #f29700;
+  text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 2px;
+}
+
+/* line 83, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .nav-item-active {
+  background-color: #3c4148;
+  color: white;
+}
+
+/* line 86, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .main {
+  background: url(../img/bg.png) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-top: 61px;
+  padding-left: 107px;
+  padding-bottom: 20px;
+}
+
+/* line 93, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .main__title {
+  background-color: #f29700;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 9px 5px;
+  text-transform: uppercase;
+  width: 210px;
+  height: 42px;
+}
+
+/* line 102, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .main__subtitle {
+  width: 54%;
+  margin-top: 15px;
+  font-size: 81px;
+  font-weight: bold;
+  line-height: 59px;
+  text-align: left;
+  color: white;
+}
+
+/* line 110, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .main__descr {
+  width: 65%;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 23px;
+  text-align: left;
+  color: white;
+}
+
+/* line 118, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .main__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* line 123, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .main__slide-item {
+  margin-left: 15px;
+  width: 15px;
+  height: 15px;
+  border: solid 1px white;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* line 130, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .main__slide-item:hover {
+  border: solid 2px white;
+  border-radius: 40%;
+}
+
+/* line 133, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .main__slide-item-active {
+  background-color: #f29700;
+  border-radius: 40%;
+}
+
+/* line 137, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  min-height: 123px;
+  padding: 0px 100px 0 100px;
+}
+
+/* line 144, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .work-item {
+  padding: 40px 20px 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* line 150, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .work-item__title {
+  margin-left: 14px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  color: #3c4148;
+}
+
+/* line 156, C:/Users/User/Desktop/chemical prom/src/sass/style.sass */
+.objects .work-item:hover {
+  background-color: #eeeeee;
+}
+
+@media (max-width: 1199px) {
+  /* line 3, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav-item {
+    font-size: 16px;
+  }
+  /* line 5, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav-item__subtitle {
+    font-size: 69px;
+    line-height: 56px;
+  }
+  /* line 8, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav-item__slide {
+    margin-top: 54px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 11, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .header {
+    height: 80px;
+  }
+  /* line 14, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav-item {
+    font-size: 11px;
+  }
+  /* line 17, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .main__title {
+    font-size: 15px;
+    width: 195px;
+    height: 39px;
+  }
+  /* line 21, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .main__subtitle {
+    font-size: 52px;
+    line-height: 39px;
+  }
+  /* line 24, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .main__descr {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 28, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item {
+    padding: 20px 10px 20px 10px;
+  }
+  /* line 30, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item__title {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 33, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .header {
+    height: 75px;
+  }
+  /* line 35, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .logo {
+    margin-left: 7px;
+  }
+  /* line 37, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .search {
+    margin-right: 7px;
+  }
+  /* line 40, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav {
+    padding: 0px 59px 0px 20px;
+  }
+  /* line 42, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .main {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  /* line 45, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .main__title {
+    font-size: 13px;
+    width: 170px;
+    height: 35px;
+  }
+  /* line 49, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .main__subtitle {
+    font-size: 42px;
+    line-height: 33px;
+  }
+  /* line 52, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .main__descr {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    width: 80%;
+  }
+  /* line 57, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .main__slide {
+    margin-top: 40px;
+  }
+  /* line 59, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work {
+    padding: 0;
+  }
+  /* line 61, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 5px;
+  }
+  /* line 66, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item__img img {
+    display: block;
+    margin: auto;
+  }
+  /* line 69, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item__title {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 75, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .logo__subtitle {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+  /* line 78, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .search__input {
+    width: 90%;
+  }
+  /* line 81, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav {
+    padding: 0;
+  }
+  /* line 83, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav-item {
+    font-size: 2vw;
+  }
+  /* line 85, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav__subtitle {
+    font-size: 7vw;
+    line-height: 5vw;
+  }
+  /* line 88, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .nav__descr {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+  /* line 91, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work {
+    flex-wrap: wrap;
+  }
+  /* line 93, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item {
+    margin-top: 5px;
+    padding: 0;
+  }
+  /* line 96, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item__title {
+    font-size: 2.7vw;
+  }
+  /* line 98, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item:nth-child(5) {
+    margin-bottom: 5px;
+  }
+  /* line 100, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .objects .work-item:nth-child(2) {
+    margin: 5px 14px 0px 5px;
+  }
+  /* line 102, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .search__btn {
+    margin-left: 0;
+  }
+  /* line 104, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .search__btn-img {
+    width: 5vw;
+  }
+}
+
+@media (max-width: 328px) {
+  /* line 109, C:/Users/User/Desktop/chemical prom/src/sass/_media.sass */
+  .work-item:nth-child(2) {
+    margin: 5px 10px 0px 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
